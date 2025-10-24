@@ -11,7 +11,7 @@ public:
 	}
 
 	// Getter //
-	float get_Salary() {
+	float get_Salary() const{
 		return Salary;
 	}
 };

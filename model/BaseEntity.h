@@ -2,7 +2,7 @@
 #include<string>
 class BaseEntity
 {
-private:
+protected:
 	int id;
 	std::string age;
 	std::string name;
@@ -28,19 +28,19 @@ public:
 
 	//getter//
 
-	int get_id() {
+	int get_id() const {
 		return id;
 	}
 
-	std::string get_age() {
+	std::string get_age() const {
 		return age;
 	}
 
-	std::string get_name() {
+	std::string get_name() const {
 		return name;
 	}
 
-	std::string get_Phon_num() {
+	std::string get_Phon_num() const {
 		return Phon_num;
 	}
 };
