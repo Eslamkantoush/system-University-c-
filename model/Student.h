@@ -5,16 +5,16 @@ class Student : public BaseEntity
 {
 private: 
 	float Gpa;
-	professor arr[5];
+	professor prof_arr[5];
 public:
 	// setter //
 	void set_Gpa(float Gpa) {
 		this->Gpa = Gpa;
 	}
 
-	void set_professor(professor arr[5]) {
+	void set_professor(professor prof_arr[5]) {
 		for (int i = 0; i < 5; i++)
-			this->arr[i] = arr[i];
+			this->prof_arr[i] = prof_arr[i];
 	}
 
 	//getter//
@@ -24,7 +24,7 @@ public:
 	}
 
 	const professor * get_professor() const {
-		return arr;
+		return prof_arr;
 	}
 };
 
