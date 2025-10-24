@@ -2,7 +2,7 @@
 #include"BaseEntity.h"
 class professor : public BaseEntity
 {
-private:
+protected:
 	float Salary;
 	int studentIds[5];
 public:
@@ -12,7 +12,7 @@ public:
 	}
 
 	void set_studentIds(int studentIds[5]){
-		for (int i = 0; i < 5; i++)
+		for (int i = 0; i < sizeof(studentIds) / sizeof(studentIds[0]); i++)
 			this->studentIds[i] = studentIds[i];
 	}
 	// Getter //

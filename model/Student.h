@@ -13,7 +13,7 @@ public:
 	}
 
 	void set_professor(professor prof_arr[5]) {
-		for (int i = 0; i < 5; i++)
+		for (int i = 0; i < sizeof(prof_arr)/ sizeof(prof_arr[0]); i++)
 			this->prof_arr[i] = prof_arr[i];
 	}
 

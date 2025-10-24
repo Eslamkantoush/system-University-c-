@@ -1,24 +1,14 @@
 #pragma once
-#include<string>
-class BaseEntity
+#include"sharData.h"
+class BaseEntity : sharData
 {
 protected:
-	int id;
 	std::string age;
-	std::string name;
 	std::string Phon_num;
 public:
 	// setter //
-	void set_id(int id) {
-		this->id = id;
-	}
-
 	void set_age(std::string age) {
 		this->age = age;
-	}
-
-	void set_name(std::string name) {
-		this->name = name;
 	}
 
 
@@ -28,16 +18,8 @@ public:
 
 	//getter//
 
-	int get_id() const {
-		return id;
-	}
-
 	std::string get_age() const {
 		return age;
-	}
-
-	std::string get_name() const {
-		return name;
 	}
 
 	std::string get_Phon_num() const {
