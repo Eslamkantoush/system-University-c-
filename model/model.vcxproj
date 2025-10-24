@@ -22,6 +22,7 @@
     <ClCompile Include="FileName.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="professor.h" />
     <ClInclude Include="Student.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
