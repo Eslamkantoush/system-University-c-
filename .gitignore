@@ -1,0 +1,26 @@
+cat > .gitignore << 'EOF'
+# Ignore Visual Studio build files
+.vs/
+x64/
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+*.sln
+*.obj
+*.pdb
+*.log
+*.tlog/
+*.idb
+*.ipch
+*.db
+*.opendb
+*.VC.db
+*.cachefile
+*.ilk
+*.exe
+*.dll
+
+# Ignore Debug/Release folders
+Debug/
+Release/
+EOF
