@@ -1,6 +1,6 @@
 #pragma once
 #include"sharData.h"
-class BaseEntity : sharData
+class BaseEntity : public sharData
 {
 protected:
 	std::string age;

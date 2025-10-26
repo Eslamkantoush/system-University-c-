@@ -1,0 +1,96 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\OneDrive\\Desktop\\Study materials\\project c\u002B\u002B\\controller\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3CCDEBF4-CA3F-4BF6-B635-3AC8D06F01EC}|controller.vcxproj|C:\\Users\\HP\\OneDrive\\Desktop\\Study materials\\project c\u002B\u002B\\controller\\FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3CCDEBF4-CA3F-4BF6-B635-3AC8D06F01EC}|controller.vcxproj|solutionrelative:FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CCDEBF4-CA3F-4BF6-B635-3AC8D06F01EC}|controller.vcxproj|C:\\Users\\HP\\OneDrive\\Desktop\\Study materials\\project c\u002B\u002B\\controller\\StudentControl.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3CCDEBF4-CA3F-4BF6-B635-3AC8D06F01EC}|controller.vcxproj|solutionrelative:StudentControl.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CCDEBF4-CA3F-4BF6-B635-3AC8D06F01EC}|controller.vcxproj|C:\\Users\\HP\\OneDrive\\Desktop\\Study materials\\project c\u002B\u002B\\controller\\ProfessorControl.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3CCDEBF4-CA3F-4BF6-B635-3AC8D06F01EC}|controller.vcxproj|solutionrelative:ProfessorControl.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CCDEBF4-CA3F-4BF6-B635-3AC8D06F01EC}|controller.vcxproj|C:\\Users\\HP\\OneDrive\\Desktop\\Study materials\\project c\u002B\u002B\\controller\\CourseControl.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3CCDEBF4-CA3F-4BF6-B635-3AC8D06F01EC}|controller.vcxproj|solutionrelative:CourseControl.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 269,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CourseControl.h",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Study materials\\project c\u002B\u002B\\controller\\CourseControl.h",
+              "RelativeDocumentMoniker": "CourseControl.h",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Study materials\\project c\u002B\u002B\\controller\\CourseControl.h",
+              "RelativeToolTip": "CourseControl.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-26T13:36:39.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProfessorControl.h",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Study materials\\project c\u002B\u002B\\controller\\ProfessorControl.h",
+              "RelativeDocumentMoniker": "ProfessorControl.h",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Study materials\\project c\u002B\u002B\\controller\\ProfessorControl.h",
+              "RelativeToolTip": "ProfessorControl.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-26T13:36:07.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentControl.h",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Study materials\\project c\u002B\u002B\\controller\\StudentControl.h",
+              "RelativeDocumentMoniker": "StudentControl.h",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Study materials\\project c\u002B\u002B\\controller\\StudentControl.h",
+              "RelativeToolTip": "StudentControl.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-26T13:35:27.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileName.cpp",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Study materials\\project c\u002B\u002B\\controller\\FileName.cpp",
+              "RelativeDocumentMoniker": "FileName.cpp",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Study materials\\project c\u002B\u002B\\controller\\FileName.cpp",
+              "RelativeToolTip": "FileName.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-25T00:13:09.584Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 #pragma once
 #include"BaseEntity.h"
-#include "professor.h"
+#include"professor.h"
 #include"course.h"
 class Student : public BaseEntity
 {

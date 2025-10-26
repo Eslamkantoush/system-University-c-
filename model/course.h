@@ -1,6 +1,6 @@
 #pragma once
 #include"sharData.h"
-class course :sharData
+class course :public sharData
 {
 protected:
 	float hour;

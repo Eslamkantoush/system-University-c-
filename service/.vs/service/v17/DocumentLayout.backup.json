@@ -1,0 +1,96 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\OneDrive\\Desktop\\Study materials\\project c\u002B\u002B\\service\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{64ABD4C3-D177-4A47-9A43-109A92E136FC}|service.vcxproj|C:\\Users\\HP\\OneDrive\\Desktop\\Study materials\\project c\u002B\u002B\\service\\FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{64ABD4C3-D177-4A47-9A43-109A92E136FC}|service.vcxproj|solutionrelative:FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64ABD4C3-D177-4A47-9A43-109A92E136FC}|service.vcxproj|C:\\Users\\HP\\OneDrive\\Desktop\\Study materials\\project c\u002B\u002B\\service\\CourseService.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{64ABD4C3-D177-4A47-9A43-109A92E136FC}|service.vcxproj|solutionrelative:CourseService.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64ABD4C3-D177-4A47-9A43-109A92E136FC}|service.vcxproj|C:\\Users\\HP\\OneDrive\\Desktop\\Study materials\\project c\u002B\u002B\\service\\StudentService.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{64ABD4C3-D177-4A47-9A43-109A92E136FC}|service.vcxproj|solutionrelative:StudentService.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64ABD4C3-D177-4A47-9A43-109A92E136FC}|service.vcxproj|C:\\Users\\HP\\OneDrive\\Desktop\\Study materials\\project c\u002B\u002B\\service\\ProfessorService.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{64ABD4C3-D177-4A47-9A43-109A92E136FC}|service.vcxproj|solutionrelative:ProfessorService.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 269,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileName.cpp",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Study materials\\project c\u002B\u002B\\service\\FileName.cpp",
+              "RelativeDocumentMoniker": "FileName.cpp",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Study materials\\project c\u002B\u002B\\service\\FileName.cpp*",
+              "RelativeToolTip": "FileName.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-26T13:14:17.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentService.h",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Study materials\\project c\u002B\u002B\\service\\StudentService.h",
+              "RelativeDocumentMoniker": "StudentService.h",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Study materials\\project c\u002B\u002B\\service\\StudentService.h",
+              "RelativeToolTip": "StudentService.h",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAUwAsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-26T07:37:40.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CourseService.h",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Study materials\\project c\u002B\u002B\\service\\CourseService.h",
+              "RelativeDocumentMoniker": "CourseService.h",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Study materials\\project c\u002B\u002B\\service\\CourseService.h",
+              "RelativeToolTip": "CourseService.h",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAUwA0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-26T07:36:58.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProfessorService.h",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Study materials\\project c\u002B\u002B\\service\\ProfessorService.h",
+              "RelativeDocumentMoniker": "ProfessorService.h",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Study materials\\project c\u002B\u002B\\service\\ProfessorService.h",
+              "RelativeToolTip": "ProfessorService.h",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-26T07:36:41.354Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
