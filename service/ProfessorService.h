@@ -1,0 +1,20 @@
+#pragma once
+#include "../Repository/ProfessorRepository.h"
+
+// interface ProfessorService
+
+class ProfessorService
+{
+public:
+	virtual int addProfessor(professor arrProfessor) = 0;
+};
+
+// Class ProfessorServiceImo
+class ProfessorServiceImp :public ProfessorService {
+private:
+	ProfessorRepositoryImp arrProfessorRepositoryImp;
+public:
+	int addProfessor(professor arrProfessor) {
+		return arrProfessorRepositoryImp.Addprofessor(arrProfessor);
+	}
+};

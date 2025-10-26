@@ -1,0 +1,95 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\OneDrive\\Desktop\\Study materials\\project c\u002B\u002B\\Repository\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E6AAB8FB-C168-4561-834B-F4514A4DF298}|Repository.vcxproj|C:\\Users\\HP\\OneDrive\\Desktop\\Study materials\\project c\u002B\u002B\\Repository\\StudentRepository.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E6AAB8FB-C168-4561-834B-F4514A4DF298}|Repository.vcxproj|solutionrelative:StudentRepository.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6AAB8FB-C168-4561-834B-F4514A4DF298}|Repository.vcxproj|C:\\Users\\HP\\OneDrive\\Desktop\\Study materials\\project c\u002B\u002B\\Repository\\CourseRepository.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E6AAB8FB-C168-4561-834B-F4514A4DF298}|Repository.vcxproj|solutionrelative:CourseRepository.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6AAB8FB-C168-4561-834B-F4514A4DF298}|Repository.vcxproj|C:\\Users\\HP\\OneDrive\\Desktop\\Study materials\\project c\u002B\u002B\\Repository\\ProfessorRepository.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E6AAB8FB-C168-4561-834B-F4514A4DF298}|Repository.vcxproj|solutionrelative:ProfessorRepository.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6AAB8FB-C168-4561-834B-F4514A4DF298}|Repository.vcxproj|C:\\Users\\HP\\OneDrive\\Desktop\\Study materials\\project c\u002B\u002B\\Repository\\FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E6AAB8FB-C168-4561-834B-F4514A4DF298}|Repository.vcxproj|solutionrelative:FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 269,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProfessorRepository.h",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Study materials\\project c\u002B\u002B\\Repository\\ProfessorRepository.h",
+              "RelativeDocumentMoniker": "ProfessorRepository.h",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Study materials\\project c\u002B\u002B\\Repository\\ProfessorRepository.h",
+              "RelativeToolTip": "ProfessorRepository.h",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-26T06:12:41.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CourseRepository.h",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Study materials\\project c\u002B\u002B\\Repository\\CourseRepository.h",
+              "RelativeDocumentMoniker": "CourseRepository.h",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Study materials\\project c\u002B\u002B\\Repository\\CourseRepository.h",
+              "RelativeToolTip": "CourseRepository.h",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-26T06:12:11.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentRepository.h",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Study materials\\project c\u002B\u002B\\Repository\\StudentRepository.h",
+              "RelativeDocumentMoniker": "StudentRepository.h",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Study materials\\project c\u002B\u002B\\Repository\\StudentRepository.h",
+              "RelativeToolTip": "StudentRepository.h",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAA8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-26T06:11:44.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FileName.cpp",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Study materials\\project c\u002B\u002B\\Repository\\FileName.cpp",
+              "RelativeDocumentMoniker": "FileName.cpp",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Study materials\\project c\u002B\u002B\\Repository\\FileName.cpp",
+              "RelativeToolTip": "FileName.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-26T06:16:30.232Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
