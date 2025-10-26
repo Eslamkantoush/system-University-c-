@@ -20,19 +20,13 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Student.h">
+    <ClInclude Include="StudentControl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="professor.h">
+    <ClInclude Include="ProfessorControl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="BaseEntity.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="sharData.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="course.h">
+    <ClInclude Include="CourseControl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

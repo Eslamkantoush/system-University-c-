@@ -18,21 +18,11 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="FileName.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="BaseEntity.h" />
-    <ClInclude Include="course.h" />
-    <ClInclude Include="professor.h" />
-    <ClInclude Include="sharData.h" />
-    <ClInclude Include="Student.h" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{b12c5ab4-9e57-49a6-b342-3e98b27ace07}</ProjectGuid>
-    <RootNamespace>model</RootNamespace>
+    <ProjectGuid>{3ccdebf4-ca3f-4bf6-b635-3ac8d06f01ec}</ProjectGuid>
+    <RootNamespace>controller</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -136,6 +126,14 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="FileName.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CourseControl.h" />
+    <ClInclude Include="ProfessorControl.h" />
+    <ClInclude Include="StudentControl.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
