@@ -1,6 +1,0 @@
-﻿  FileName.cpp
-C:\Users\HP\OneDrive\Desktop\Study materials\project c++\service\CourseService.h(19,31): error C2228: left of '.Addcourse' must have class/struct/union
-  (compiling source file 'FileName.cpp')
-      C:\Users\HP\OneDrive\Desktop\Study materials\project c++\service\CourseService.h(19,31):
-      type is 'CourseRepositoryImp [10]'
-  
