@@ -41,7 +41,9 @@ void addstudent(){
     student.set_Gpa(gpa);
 
     StudentControl studentcontrol;
-    cout << "Success Added student with id [ " << studentcontrol.addStudent(student) << " ]" << endl;
+    int id = studentcontrol.addStudent(student);
+    if(id != -1)
+        cout << "Success Added student with id [ " << id << " ]" << endl;
 }
 
 void addCourse() {
@@ -56,7 +58,9 @@ void addCourse() {
     cin >> hour;
     course.set_hour(hour);
     CourseControl coursecontrol;
-    cout << "Success Added Course with id [ " << coursecontrol.addCourse(course) << " ]" << endl;
+    int id = coursecontrol.addCourse(course);
+    if (id != -1)
+        cout << "Success Added Course with id [ " << id << " ]" << endl;
 }
 
 void addProfessor(){
@@ -80,7 +84,9 @@ void addProfessor(){
     professor.set_Salary(salary); 
 
     ProfessorControl professorcontrol;
-    cout << "Success Added Professor with id [ " << professorcontrol.addProfessor(professor) << " ]" << endl;
+    int id = professorcontrol.addProfessor(professor);
+    if (id != -1)
+        cout << "Success Added Professor with id [ " <<id << " ]" << endl;
 }
 
 void switchStudent() {
