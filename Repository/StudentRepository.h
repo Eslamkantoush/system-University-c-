@@ -1,6 +1,6 @@
 #pragma once
 #include "../model/Student.h"
-
+#include "StaticData.h"
 //interface class
 class StudentRepository
 {
@@ -12,18 +12,17 @@ public:
 //class imp
 class StudentRepositoryImp : public StudentRepository{
 private:
-	Student arrstudent[50];
-	int index = 0; 
+	//StaticData staticdata;
 public:
 	int AddStudent(Student arrstudent) {
-		if (index == 50) {
+		if (StaticData::indexstudent == 5) {
 			std::cout << "Student is Full!\n";
 			return 0;
 		}
 		else {
-			this->arrstudent[index] = arrstudent;
-			index++;
-			return 1;
+			arrstudent.set_id(StaticData::idstudent++);
+			StaticData::arrstudent[StaticData::indexstudent++] = arrstudent;
+			return arrstudent.get_id();
 		}
 	}
 };

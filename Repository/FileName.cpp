@@ -1,8 +1,12 @@
 #include<iostream>
-#include"Student.h"
+#include"StudentRepository.h"
+#include"ProfessorRepository.h"
+#include"CourseRepository.h"
 using namespace std;
 
 int main() {
-    StudentImp s;
+    StudentRepositoryImp s;
+    ProfessorRepositoryImp pr;
+    CourseRepositoryImp cr;
     return 0;
 }
