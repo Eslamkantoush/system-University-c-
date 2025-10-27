@@ -7,7 +7,7 @@ private:
 	ProfessorServiceImp arrProfessorServiceImp;
 	
 public:
-	int addProfessor(professor arrProfessor) {
+	int addProfessor(Professor arrProfessor) {
 		return arrProfessorServiceImp.addProfessor(arrProfessor);
 	}
 

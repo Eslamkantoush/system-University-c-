@@ -41,9 +41,46 @@ void addstudent(){
     student.set_Gpa(gpa);
 
     StudentControl studentcontrol;
-    int id = studentcontrol.addStudent(student);
+    cout << "Success Added student with id [ " << studentcontrol.addStudent(student) << " ]" << endl;
+}
 
-    cout << "Success Added with id [ " << id << " ]" << endl;
+void addCourse() {
+    cout << "Enter Course Data\n";
+    course course;
+    cout << "Enter name course\n";
+    cin.ignore();
+    string name; getline(cin, name);
+    course.set_name(name);
+    cout << "Enter hour course\n";
+    float hour;
+    cin >> hour;
+    course.set_hour(hour);
+    CourseControl coursecontrol;
+    cout << "Success Added Course with id [ " << coursecontrol.addCourse(course) << " ]" << endl;
+}
+
+void addProfessor(){
+    cout << "Enter Professor Data\n";
+    Professor professor;
+    cout << "Enter name Professor\n";
+    cin.ignore();
+    string name; getline(cin, name);
+    professor.set_name(name);
+
+    cout << "Enter age Professor\n";
+    string age; getline(cin, age);
+    professor.set_age(age);
+
+    cout << "Enter Phon number Professor\n";
+    string phonnum; getline(cin, phonnum);
+    professor.set_Phon_num(phonnum);
+
+    cout << "Enter Salary Professor\n";
+    float salary; cin >> salary;
+    professor.set_Salary(salary); 
+
+    ProfessorControl professorcontrol;
+    cout << "Success Added Professor with id [ " << professorcontrol.addProfessor(professor) << " ]" << endl;
 }
 
 void switchStudent() {
@@ -70,7 +107,7 @@ void switchStudent() {
 void switchCourse() {
     switch (process) {
     case 1:
-        cout << "Add Course" << endl;
+        addCourse();
         break;
     case 2:
         cout << "Remove Course" << endl;
@@ -91,7 +128,7 @@ void switchCourse() {
 void switchProfessor() {
     switch (process) {
     case 1:
-        cout << "Add Professor" << endl;
+        addProfessor();
         break;
     case 2:
         cout << "Remove Professor" << endl;
@@ -108,6 +145,7 @@ void switchProfessor() {
         cout << "Invalid Choose" << endl;
     }
 }
+
 int main() {
     int flag = 0;
     while (true) {

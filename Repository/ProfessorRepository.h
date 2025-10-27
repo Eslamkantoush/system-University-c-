@@ -6,7 +6,7 @@
 class ProfessorRepository
 {
 public:
-	virtual int Addprofessor(professor arrprofessor) = 0;
+	virtual int Addprofessor(Professor arrprofessor) = 0;
 };
 
 //class imp
@@ -14,7 +14,7 @@ class ProfessorRepositoryImp : public ProfessorRepository {
 private:
 	//StaticData staticdata;
 public:
-	int Addprofessor(professor arrprofessor) {
+	int Addprofessor(Professor arrprofessor) {
 		if (StaticData::indexprofessor == 5) {
 			std::cout << "professor is Full!\n";
 			return 0;

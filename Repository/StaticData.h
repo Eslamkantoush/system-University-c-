@@ -11,7 +11,7 @@ public:
     static int indexstudent;
     static int idstudent;
 
-    static professor arrprofessor[5];
+    static Professor arrprofessor[5];
     static int indexprofessor;
     static int idprofessor;
 
@@ -25,7 +25,7 @@ Student StaticData::arrstudent[5];
 int StaticData::indexstudent = 0;
 int StaticData::idstudent = 1;
 
-professor StaticData::arrprofessor[5];
+Professor StaticData::arrprofessor[5];
 int StaticData::indexprofessor = 0;
 int StaticData::idprofessor = 1;
 

@@ -1,6 +1,6 @@
 #pragma once
 #include"BaseEntity.h"
-class professor : public BaseEntity
+class Professor : public BaseEntity
 {
 protected:
 	float Salary;
