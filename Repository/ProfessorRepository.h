@@ -15,14 +15,13 @@ private:
 	//StaticData staticdata;
 public:
 	int Addprofessor(Professor arrprofessor) {
-		if (StaticData::indexprofessor == 5) {
-			std::cout << "professor is Full!\n";
-			return 0;
+		if (StaticData::indexprofessor == 20) {
+			return -1;
 		}
 		else {
 			arrprofessor.set_id(StaticData::idprofessor++);
 			StaticData::arrprofessor[StaticData::indexprofessor++] = arrprofessor;
-			return arrprofessor.get_id();
 		}
+		return arrprofessor.get_id();
 	}
 };

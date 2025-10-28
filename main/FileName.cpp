@@ -43,7 +43,9 @@ void addstudent(){
     StudentControl studentcontrol;
     int id = studentcontrol.addStudent(student);
     if(id != -1)
+    {
         cout << "Success Added student with id [ " << id << " ]" << endl;
+    }
 }
 
 void addCourse() {
@@ -60,7 +62,9 @@ void addCourse() {
     CourseControl coursecontrol;
     int id = coursecontrol.addCourse(course);
     if (id != -1)
+    {
         cout << "Success Added Course with id [ " << id << " ]" << endl;
+    }
 }
 
 void addProfessor(){
@@ -86,7 +90,9 @@ void addProfessor(){
     ProfessorControl professorcontrol;
     int id = professorcontrol.addProfessor(professor);
     if (id != -1)
-        cout << "Success Added Professor with id [ " <<id << " ]" << endl;
+    {
+        cout << "Success Added Professor with id [ " << id << " ]" << endl;
+    }
 }
 
 void switchStudent() {

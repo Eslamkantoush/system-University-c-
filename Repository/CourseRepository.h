@@ -15,14 +15,14 @@ private:
 	//StaticData staticdata
 public:
 	int Addcourse(course arrcourse) {
-		if (StaticData::indexcourse == 5) {
-			std::cout << "course is Full!\n";
-			return 0;
+		if (StaticData::indexcourse == 20) {
+			return -1;
 		}
 		else {
 			arrcourse.set_id(StaticData::idcourse++);
 			StaticData::arrcourse[StaticData::indexcourse++] = arrcourse;
-			return arrcourse.get_id();
-		}
+ 		}
+		return arrcourse.get_id();
+
 	}
 };

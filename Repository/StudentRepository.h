@@ -15,14 +15,13 @@ private:
 	//StaticData staticdata;
 public:
 	int AddStudent(Student arrstudent) {
-		if (StaticData::indexstudent == 5) {
-			std::cout << "Student is Full!\n";
-			return 0;
+		if (StaticData::indexstudent == 100) {
+			return -1;
 		}
 		else {
 			arrstudent.set_id(StaticData::idstudent++);
 			StaticData::arrstudent[StaticData::indexstudent++] = arrstudent;
-			return arrstudent.get_id();
 		}
+		return arrstudent.get_id();
 	}
 };
