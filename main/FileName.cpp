@@ -5,7 +5,7 @@
 #include"../controller/ProfessorControl.h"
 using namespace std;
 int process;
-
+int id;
 void DisplaySystem() {
     cout << "\n\t\t********Management System********\n\n";
     cout << "Enter your Process you neet do to!\n";
@@ -15,8 +15,9 @@ void DisplaySystem() {
 
 void ShowList(string value) {
     cout << "\n\t\t********" << value << " Management System********\n\n";
-    cout << "1.Add " << value << "\t\t2.Remove " << value << "\t\t3.Edit " << value;
-    cout << "\n4.Show " << value << "\t\t5.Exit\n";
+    cout << "1.Add " << value << "\t\t2.Remove " << value;
+    cout << "\n3.Edit " << value << "\t\t4.Show " << value;
+    cout << "\n5.Show " << value << " ByID" << "\t6.Exit\n";
 }
 
 void addstudent(){
@@ -41,7 +42,7 @@ void addstudent(){
     student.set_Gpa(gpa);
 
     StudentControl studentcontrol;
-    int id = studentcontrol.addStudent(student);
+    id = studentcontrol.addStudent(student);
     if(id != -1)
     {
         cout << "Success Added student with id [ " << id << " ]" << endl;
@@ -60,7 +61,7 @@ void addCourse() {
     cin >> hour;
     course.set_hour(hour);
     CourseControl coursecontrol;
-    int id = coursecontrol.addCourse(course);
+    id = coursecontrol.addCourse(course);
     if (id != -1)
     {
         cout << "Success Added Course with id [ " << id << " ]" << endl;
@@ -88,11 +89,32 @@ void addProfessor(){
     professor.set_Salary(salary); 
 
     ProfessorControl professorcontrol;
-    int id = professorcontrol.addProfessor(professor);
+    id = professorcontrol.addProfessor(professor);
     if (id != -1)
     {
         cout << "Success Added Professor with id [ " << id << " ]" << endl;
     }
+}
+
+void ShowStudentByID() {
+    cout << "Enter ID Student\n";
+    cin >> id;
+    StudentControl studentControl;
+    studentControl.showstudentbyid(id);
+}
+
+void ShowCourseByID() {
+    cout << "Enter ID Course\n";
+    cin >> id;
+    CourseControl courseControl;
+    courseControl.showCoursebyid(id);
+}
+
+void ShowProfessorByID() {
+    cout << "Enter ID Professor\n";
+    cin >> id;
+    ProfessorControl professorControl;
+    professorControl.showProfessorid(id);
 }
 
 void switchStudent() {
@@ -110,6 +132,9 @@ void switchStudent() {
         cout << "Show Student" << endl;
         break;
     case 5:
+        ShowStudentByID();
+        break;
+    case 6:
         break;
     default:
         cout << "Invalid Choose" << endl;
@@ -131,6 +156,9 @@ void switchCourse() {
         cout << "Show Course" << endl;
         break;
     case 5:
+        ShowCourseByID();
+        break;
+    case 6:
         break;
     default:
         cout << "Invalid Choose" << endl;
@@ -152,6 +180,9 @@ void switchProfessor() {
         cout << "Show Professor" << endl;
         break;
     case 5:
+        ShowProfessorByID();
+        break;
+    case 6:
         break;
     default:
         cout << "Invalid Choose" << endl;

@@ -7,6 +7,7 @@
 class StudentService {
 public:
 	virtual int addStudent(Student arrstudent) = 0;
+	virtual Student getStudentId(int id) = 0;
 };
 
 // Class StudentServiceImpl
@@ -15,6 +16,7 @@ private:
 	StudentRepositoryImp arrStudentRepositoryImp;
 	StudentValidation studentValidation;
 	ValidationServies validationServies;
+	Student studentResult;
 public:
 	int addStudent(Student student) {
 		if (studentValidation.Studentvalid(student) == 1) {
@@ -27,5 +29,12 @@ public:
 
 		}
 		return -1;
+	}
+
+	Student getStudentId(int id) {
+		studentResult = arrStudentRepositoryImp.getStudentId(id);
+		if (studentResult.get_id() == -1)
+			std::cout << "Student with id [" << id << "] not Exist\n";
+		return studentResult;
 	}
 };

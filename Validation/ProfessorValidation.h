@@ -1,5 +1,6 @@
 #pragma once
 #include"../model/professor.h"
+#include"ValidationServies.h"
 
 class ProfessorValidation
 {

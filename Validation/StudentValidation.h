@@ -1,5 +1,7 @@
 #pragma once
 #include"../model/Student.h"
+#include"ValidationServies.h"
+
 class StudentValidation
 {
 public:

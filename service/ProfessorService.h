@@ -7,6 +7,7 @@ class ProfessorService
 {
 public:
 	virtual int addProfessor(Professor arrProfessor) = 0;
+	virtual Professor getProfessorId(int id) = 0;
 };
 
 // Class ProfessorServiceImo
@@ -15,6 +16,7 @@ private:
 	ProfessorRepositoryImp arrProfessorRepositoryImp;
 	ProfessorValidation professorValidation;
 	ValidationServies validationServies;
+	Professor professorResult;
 public:
 	int addProfessor(Professor Professor) {
 		if (professorValidation.professorvalid(Professor) ==1 ){
@@ -26,5 +28,12 @@ public:
 				return id;
 		}
 		return -1;
+	}
+
+	Professor getProfessorId(int id) { 
+		professorResult = arrProfessorRepositoryImp.getProfessorId(id);
+		if (professorResult.get_id() == -1)
+			std::cout << "Professor with id [" << id << "] not Exist\n";
+		return professorResult;
 	}
 };
