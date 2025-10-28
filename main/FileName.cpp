@@ -20,6 +20,8 @@ void ShowList(string value) {
     cout << "\n5.Show " << value << " ByID" << "\t6.Exit\n";
 }
 
+
+
 void addstudent(){
     cout << "Enter Student Data\n";
     Student student;
@@ -96,6 +98,8 @@ void addProfessor(){
     }
 }
 
+
+
 void ShowStudentByID() {
     cout << "Enter ID Student\n";
     cin >> id;
@@ -117,19 +121,139 @@ void ShowProfessorByID() {
     professorControl.showProfessorid(id);
 }
 
+
+
+void RemoveStudentByID() {
+    cout << "Enter ID Student to remove\n";
+    cin >> id;
+    StudentControl studentControl;
+    studentControl.removeStudentById(id);
+}
+
+void RemoveCourseByID() {
+    cout << "Enter ID Course to remove\n";
+    cin >> id;
+    CourseControl courseControl;
+    courseControl.removeCourseById(id);
+}
+
+void RemoveProfessorByID() {
+    cout << "Enter ID Professor to remove\n";
+    cin >> id;
+    ProfessorControl professorControl;
+    professorControl.removeProfessorById(id);
+}
+
+
+
+void showAllStudents() {
+    StudentServiceImpl service;
+    service.printAllStudents();
+}
+
+void showAllCourses() {
+    CourseServiceImp service;
+    service.printAllCourses();
+}
+
+void showAllProfessors() {
+    ProfessorServiceImp service;
+    service.printAllProfessors();
+}
+
+
+
+void editStudent() {
+    cout << "Please Enter Student Data\n" << endl;
+    Student student;
+    cout << "Enter Student ID\n";
+    cin >> id;
+    student.set_id(id);
+    cout << "Enter Student Name\n";
+    cin.ignore();
+    string name; getline(cin, name);
+    student.set_name(name);
+
+    cout << "Enter age student\n";
+    string age; getline(cin, age);
+    student.set_age(age);
+
+    cout << "Enter Phon number student\n";
+    string phonnum; getline(cin, phonnum);
+    student.set_Phon_num(phonnum);
+
+    cout << "Enter Student GPA\n";
+    float gpa;cin >> gpa;
+    student.set_Gpa(gpa);
+    StudentControl studentcontrol;    
+    studentcontrol.UpdataStudent(student);
+}
+
+void editCourse() {
+    cout << "Enter Course Data\n";
+    course course;
+
+    cout << "Enter Course ID :";
+    cin >> id;
+    course.set_id(id);
+
+    cout << "Enter name course\n";
+    cin.ignore();
+    string name; getline(cin, name);
+    course.set_name(name);
+    cout << "Enter hour course\n";
+    float hour;
+    cin >> hour;
+    course.set_hour(hour);
+    CourseControl coursecontrol;
+    coursecontrol.UpdataCourses(course);
+}
+
+void editTeacher() {
+    cout << "Enter Professor Data\n";
+    Professor professor;
+
+    cout << "Enter Professor ID :";
+    cin >> id;
+    professor.set_id(id);
+
+
+    cout << "Enter name Professor\n";
+    cin.ignore();
+    string name; getline(cin, name);
+    professor.set_name(name);
+
+    cout << "Enter age Professor\n";
+    string age; getline(cin, age);
+    professor.set_age(age);
+
+    cout << "Enter Phon number Professor\n";
+    string phonnum; getline(cin, phonnum);
+    professor.set_Phon_num(phonnum);
+
+    cout << "Enter Salary Professor\n";
+    float salary; cin >> salary;
+    professor.set_Salary(salary);
+
+    ProfessorControl professorcontrol;
+    professorcontrol.Updataprofessor(professor);
+}
+
+
+
 void switchStudent() {
     switch (process) {
     case 1:
         addstudent();
         break;
     case 2:
-        cout << "Remove Student" << endl;
+        RemoveStudentByID();
         break;
     case 3:
-        cout << "Edit Student" << endl;
+        editStudent();
         break;
     case 4:
-        cout << "Show Student" << endl;
+        showAllStudents();
         break;
     case 5:
         ShowStudentByID();
@@ -147,13 +271,13 @@ void switchCourse() {
         addCourse();
         break;
     case 2:
-        cout << "Remove Course" << endl;
+        RemoveCourseByID();
         break;
     case 3:
-        cout << "Edit Course" << endl;
+        editCourse();
         break;
     case 4:
-        cout << "Show Course" << endl;
+        showAllCourses();
         break;
     case 5:
         ShowCourseByID();
@@ -171,13 +295,13 @@ void switchProfessor() {
         addProfessor();
         break;
     case 2:
-        cout << "Remove Professor" << endl;
+        RemoveProfessorByID();
         break;
     case 3:
-        cout << "Edit Professor" << endl;
+        editTeacher();
         break;
     case 4:
-        cout << "Show Professor" << endl;
+        showAllProfessors();
         break;
     case 5:
         ShowProfessorByID();
